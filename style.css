@@ -23,4 +23,35 @@ body{
     min-height: 40vh;
     padding: 2rem;
     border-radius: 8px ;
+    box-shadow: 5px 5px 15px rgb(178, 66, 66) (0,0,0,0.2);
+}
+h2{
+    margin-bottom: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input-field{
+    position: relative;
+}
+.input-field input{
+    outline: none;
+    font-weight: 0.9rem;
+    color: black(0,0,0,0.7);
+    margin-top: 1rem;
+
+}
+#botao-continue{
+    background: linear-gradient(to left, rgb(34, 168, 153), rgb(163, 167, 166) );
+    margin-top: 2rem;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    height: 40px;
+    border-radius: 8px;
+}
+#botao-continue:hover{
+    font-size: 1rem;
+    transition: 0.3s;
 }
